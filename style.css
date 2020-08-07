@@ -1,0 +1,232 @@
+/* 
+
+font-family: 'Mali',
+cursive;
+*/
+:root{
+--font:'Mali',
+cursive;
+--color:rgb(42, 58, 43);
+}
+*{
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('contemporary-decoration-design-1090638.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navbar{
+    float: right;
+}
+#navbar a{
+    padding: 15px 25px;
+    color: black;
+    font-size: 22px;
+}
+#navbar a:hover{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+h1{
+    font-family: var(--font);
+    position: absolute;
+    top: 35vh;
+    left: 30%;
+    font-size: 100px;
+    background: rgba(255, 255, 255, 0.678);
+    width: 700px;
+    text-align: center;
+}
+#reservation h2{
+    font-family: var(--font1);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+#icon{
+    top: 0;
+    position: fixed;
+    display: inline;
+        z-index: 10;
+}
+#icon ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#icon li {
+    display: inline;
+    list-style: none;
+}
+#icon li img{
+    height: 50px;
+    width: 50px;
+}
+#reservation{
+    box-sizing: border-box;
+    min-height: 160px;
+    width: 100%;
+    background: var(--color);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+form{
+    padding: 20px;
+}
+input{
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0);
+    border-bottom: solid grey 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+input:hover{
+    background: rgba(245, 255, 245, 0.192);
+    color: black;
+    transition: .9s;
+}
+input:focus{
+    background: rgb(255, 255, 255);
+    transition: .8s;
+}
+select{
+    border: none;
+    width: 155px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0);
+}
+option{
+    background: var(--color);
+    color: rgb(253, 253, 253);
+}
+
+button{
+    
+    width: 150px;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.356);
+    color: white;
+    margin: 10px auto 30px;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0);
+    border: solid white 2px;
+    cursor: pointer;
+}
+
+
+#history{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background:rgb(43, 42, 42);
+}
+#history p{
+    padding: 10px ;
+    font-size: 16px;
+    color: rgb(253, 253, 253);
+}
+#history .img{
+    height: 100vh;
+    width: 100%;
+}
+.img img{
+    height: 100%;
+    width: auto;
+    float: right;
+    background-size: cover;
+}
+.txt{
+    width: 70%;
+    margin:auto;
+}
+.txt h2{
+    font-size: 30px; text-align: center;
+    margin: 20px;color: white;
+}
+
+
+hr{
+    border-bottom: 10px dotted rgb(33, 185, 91);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+.breakfast, .lunch, .dinner, .desert{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 120px auto;
+}
+.breakfast h3,
+.lunch h3,
+.dinner h3,
+.desert h3{
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto 80px;
+    text-decoration: underline;
+    color: green;
+}
+.menu{
+    width: 75%;
+    margin: auto;
+}
+.box{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+}
+.box>b{
+    text-align: end;
+}
+.img2{
+    height: 700px;
+    width: 90%;
+        margin: auto;
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+footer{
+    color: rgb(255, 255, 255);
+    background: var(--color);
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    text-align: center;
+    padding: 50px;
+}
+#footer a{
+    color: rgb(255, 255, 255);
+}
+footer p{
+    text-align: center;
+}
+
